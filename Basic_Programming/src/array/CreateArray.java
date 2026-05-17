@@ -1,13 +1,13 @@
 package array;
 
 public class CreateArray {
-	// There are three main ways to create an array in Java
+// There are three main ways to create an array in Java
 	public static void main(String[] args) {
-
+// 1st Way
 		int[] rollno; // Declaration!
 		rollno = new int[7]; // Memory allocation!
 		System.out.println(rollno.length+"\n");
-
+// 2nd Way
 		int[] id = new int[5]; // Declaration + Memory allocation!
 		id[0] = 10;
 		id[1] = 20;
@@ -15,7 +15,7 @@ public class CreateArray {
 		id[3] = 40;
 		id[4] = 50;
 		System.out.println(id[2]+"\n");
-
+// 3rd Way
 		int[] marks = { 100, 70, 80, 55, 71, 98 }; // Declare +memory allocation and Initialize!
 
 		System.out.println(marks[0]);
