@@ -1,4 +1,4 @@
-package ArrayPrograms; //Find max and min Value from Array.
+package array; //Find max and min Value from Array.
 
 public class MaxMinElement {
 
