@@ -1,1 +1,23 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Build folders
+target/
+bin/
+out/
 /module-info.class
