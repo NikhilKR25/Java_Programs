@@ -1,4 +1,4 @@
-package StringPrograms;
+package string;
 
 import java.util.Arrays;
 // comparing two string and sorted if its same then string is anagram.
