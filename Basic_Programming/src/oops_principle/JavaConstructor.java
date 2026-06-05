@@ -1,4 +1,4 @@
-package oopsPrinciple;
+package oops_principle;
 
 public class JavaConstructor {
 	
