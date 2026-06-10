@@ -1,4 +1,4 @@
-package oops_pinciple;
+package oops_principle;
 
 class Shape {
 	void draw() {
