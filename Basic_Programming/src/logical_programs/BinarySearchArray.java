@@ -21,11 +21,11 @@ public class BinarySearchArray {
 
         int low = 0;
         int high = arr.length - 1;
-
+//        Find the middle element.
         while (low <= high) {
 
             int mid = low + (high - low) / 2;
-
+//        check key value is grater or less , Repeat until the element is found or the search space becomes empty.
             if (arr[mid] == key) {
                 return mid;
             } else if (arr[mid] < key) {
