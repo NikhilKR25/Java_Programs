@@ -6,10 +6,12 @@ interface MyCamera{
     }
 
 interface MyWifi{
+    // Display available WiFi networks
     void getNetworks();
 }
 
 class MyCellPhone{
+    // Method to initiate a call
     void callNumber(int phoneNumber){
         System.out.println("Calling from "+ phoneNumber);
     }
@@ -21,6 +23,7 @@ class MyCellPhone{
 
 class MySmartPhone extends MyCellPhone implements MyWifi, MyCamera
 {
+    // Implementation of functionality
     public void takeSnap(){
         System.out.println("Taking snap");
     }
