@@ -22,8 +22,16 @@ public class PascalTriangle {
 				 // Next Value = Current Value × (Row - Column) ÷ (Column + 1)
 				num = num * (i - j) / (j + 1);
 			}
-			 // Move to the next line after completing current row
+			 // Move to the next line after completing row
 			System.out.println();
 		}
 	}
 }
+
+/*
+     1 
+    1 1 
+   1 2 1 
+  1 3 3 1 
+ 1 4 6 4 1 
+ */
