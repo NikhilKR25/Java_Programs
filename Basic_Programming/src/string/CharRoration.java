@@ -12,9 +12,11 @@ public class CharRoration {
 			
 			for(int j=0; j<=ch.length-1; j++)
 			{
+				 // Print the character at the current index
 				System.out.print(ch[index]);
 				index++;
-				index = index %6;
+				  // If index reaches the end of the array,then start again 0
+				index = index % ch.length;
 			}
 			System.out.println();
 		}
