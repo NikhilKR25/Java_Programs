@@ -12,8 +12,10 @@ public class FindLongestWord {
         for(String word:sentence.split(" ")){
         	// Check if the current word is longer than the previously, 
             if(word.length()>longest.length())
+            	// If it is longer, update the longest word
                 longest=word;
         }
+        //	Print the longest word 
         System.out.println("Longest Word in sentence is :"+longest);
     }
 }
