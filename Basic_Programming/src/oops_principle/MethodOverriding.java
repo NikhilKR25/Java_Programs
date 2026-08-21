@@ -13,17 +13,24 @@ class A{
 class B extends A{
 	@Override
 	public void meth() {
-		System.out.println("Method overridden in Class B");
+		System.out.println("Method two overridden - Class B");
 	}
 }
 
 public class MethodOverriding {
 
 	public static void main(String[] args) {
-		A var = new A();
-		var.demo();
-		var.meth();
+		 // Parent class object
+        A var = new A();
+        var.demo();
+        var.meth();
+
+        // Child class object
 		B var1 = new B();
 		var1.meth();
+		
+		 // Runtime polymorphism
+        A var2 = new B();
+        var2.meth();
 	}
 }
