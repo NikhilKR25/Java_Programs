@@ -1,4 +1,5 @@
 package numbers_pattern;
+//	Palindrome Diamond Number Pattern
 public class PalindromeDiamond {
 
     public static void main(String[] args) {
@@ -7,12 +8,15 @@ public class PalindromeDiamond {
         // Upper half portion
         for (int i = 1; i <= rows; i++) {
         	
+            // Print spaces
             for (int s = 1; s <= rows - i; s++) {
                 System.out.print(" ");
             }
+            // Increasing numbers
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
+            // Decreasing numbers
             for (int j = i - 1; j >= 1; j--) {
                 System.out.print(j);
             }
@@ -22,13 +26,16 @@ public class PalindromeDiamond {
         // Lower half portion
         for (int i = rows - 1; i >= 1; i--) {
 
+            // Print spaces
             for (int s = 1; s <= rows - i; s++) {
                 System.out.print(" ");
             }
 
+            // Increasing numbers
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
+            // Decreasing numbers
             for (int j = i - 1; j >= 1; j--) {
                 System.out.print(j);
             }
