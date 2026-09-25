@@ -12,7 +12,26 @@ public class HollowPyramid {
             for (int j = 1; j <= rows - i; j++) {
                 System.out.print(" ");
             }
+
+            // Print stars and spaces
+            for (int j = 1; j <= 2 * i - 1; j++) {
+
+                // Print star at the boundary or bottom
+                if (j == 1 || j == 2 * i - 1 || i == rows) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
         }
     }
 }
-
+/*
+    *
+   * *
+  *   *
+ *     *
+*********
+ * */
