@@ -1,5 +1,5 @@
 package normal_pattern;
-
+//Hollow Pyramid or Hollow Triangle Pattern
 public class HollowPyramid {
 	
     public static void main(String[] args) {
