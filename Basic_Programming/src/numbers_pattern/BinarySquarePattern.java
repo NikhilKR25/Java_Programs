@@ -28,4 +28,10 @@ public class BinarySquarePattern {
         }
     }
 }
+/* output
 
+101010
+010101
+101010
+010101
+*/
