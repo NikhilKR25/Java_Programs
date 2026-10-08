@@ -4,10 +4,12 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 		System.out.println("Program Started");
-		
+		// Given String
 		String str = "Java has Object";
-		char [] arr = str.toCharArray();
 		
+		// Convert the string into a character array
+		char [] arr = str.toCharArray();
+		// Loop through last char to first
 		for(int i=arr.length-1; i>=0; i--)
 		{
 			System.out.print(arr[i]+" ");
