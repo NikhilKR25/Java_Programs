@@ -1,5 +1,5 @@
 package string;
-
+// Remove White Space From String using Regular Expression
 public class RemoveWhiteSpace {
 
     public static void main(String[] args) {
