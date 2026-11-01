@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+
 	<name>Basic_Programming</name>
 	<comment></comment>
 	<projects>
@@ -11,6 +12,7 @@
 			</arguments>
 		</buildCommand>
 	</buildSpec>
+
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
